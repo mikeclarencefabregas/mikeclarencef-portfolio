@@ -1,5 +1,4 @@
 import React from "react";
-import { CONTACT } from "../assets";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -20,7 +19,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.address}
+          Lipa City, Batangas Philippines
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -28,7 +27,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.phoneNo}
+          0955-405-9911
         </motion.p>
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
@@ -37,7 +36,7 @@ const Contact = () => {
           className="my-4 border-b"
           href="#"
         >
-          {CONTACT.email}
+          mikeclarencefabregas@gmail.com
         </motion.a>
       </div>
     </div>
