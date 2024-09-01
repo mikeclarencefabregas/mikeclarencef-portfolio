@@ -13,11 +13,11 @@ const Navbar = () => {
         <img className="mx-2 w-auto" src={iconPic} alt="" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <FaFacebook />
         <FaGithub />
         <FaInstagram />
         <FaLinkedin />
         <FaSquareTwitter />
-        <FaFacebook />
       </div>
     </nav>
   );
