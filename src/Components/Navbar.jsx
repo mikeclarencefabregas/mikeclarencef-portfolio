@@ -13,11 +13,21 @@ const Navbar = () => {
         <img className="mx-2 w-auto" src={iconPic} alt="" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaFacebook />
-        <FaGithub />
-        <FaInstagram />
-        <FaLinkedin />
-        <FaSquareTwitter />
+        <a href="https://www.facebook.com/mikeclarencef">
+          <FaFacebook />
+        </a>
+        <a href="https://github.com/mikeclarencefabregas">
+          <FaGithub />
+        </a>
+        <a href="https://www.instagram.com/mikeclarencef/">
+          <FaInstagram />
+        </a>
+        <a href="https://www.linkedin.com/in/mike-clarence-fabregas-487b38277/">
+          <FaLinkedin />
+        </a>
+        <a href="https://x.com/mikeclarencef">
+          <FaSquareTwitter />
+        </a>
       </div>
     </nav>
   );
