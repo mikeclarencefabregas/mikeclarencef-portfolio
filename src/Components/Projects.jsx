@@ -1,5 +1,5 @@
 import React from "react";
-import { PROJECTS } from "../assets";
+import { PROJECT } from "../assets/projects";
 import { motion } from "framer-motion";
 
 const Projects = () => {
@@ -14,7 +14,7 @@ const Projects = () => {
         Projects
       </motion.h1>
       <div className="">
-        {PROJECTS.map((project, index) => (
+        {PROJECT.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -25,8 +25,8 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                width={150}
-                height={150}
+                width={250}
+                height={250}
                 className="mb-6 rounded"
               />
             </motion.div>

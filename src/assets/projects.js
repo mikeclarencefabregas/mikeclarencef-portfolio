@@ -3,33 +3,31 @@ import project2 from "./projects/project-2.jpg";
 import project3 from "./projects/project-3.jpg";
 import project4 from "./projects/project-4.jpg";
 
-export const PROJECTS = [
+export const PROJECT = [
   {
-    title: "E-Commerce Website",
+    title: "Liberica Database",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website with features like extracting morphological charateristics of coffee beans (Liberica).",
+    technologies: ["HTML", "CSS", "FLask", "Javascript", "SQLAlchemy"],
   },
   {
-    title: "Task Management App",
+    title: "Flamengo",
     image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    description: "A for fully functioning online food website.",
+    technologies: ["HTML", "CSS", "Javascript", "PHP"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Blogging Platform",
+    title: "Online Book Website",
     image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    description: "A website for storing the best books online.",
+    technologies: ["HTML", "CSS", "Javasscript", "PHP"],
   },
 ];
