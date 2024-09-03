@@ -13,19 +13,22 @@ const Navbar = () => {
         <img className="mx-2 w-auto" src={iconPic} alt="" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.facebook.com/mikeclarencef">
+        <a href="https://www.facebook.com/mikeclarencef" target="_blank">
           <FaFacebook />
         </a>
-        <a href="https://github.com/mikeclarencefabregas">
+        <a href="https://github.com/mikeclarencefabregas" target="_blank">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/mikeclarencef/">
+        <a href="https://www.instagram.com/mikeclarencef/" target="_blank">
           <FaInstagram />
         </a>
-        <a href="https://www.linkedin.com/in/mike-clarence-fabregas-487b38277/">
+        <a
+          href="https://www.linkedin.com/in/mike-clarence-fabregas-487b38277/"
+          target="_blank"
+        >
           <FaLinkedin />
         </a>
-        <a href="https://x.com/mikeclarencef">
+        <a href="https://x.com/mikeclarencef" target="_blank">
           <FaSquareTwitter />
         </a>
       </div>
