@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="text-center tracking-tighter">
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4"
         >
@@ -23,7 +23,7 @@ const Contact = () => {
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4"
         >
@@ -31,7 +31,7 @@ const Contact = () => {
         </motion.p>
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
+          initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4 border-b"
           href="#"
