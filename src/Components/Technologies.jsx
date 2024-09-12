@@ -3,6 +3,9 @@ import { FaCss3, FaJsSquare } from "react-icons/fa";
 import { FaHtml5, FaPython } from "react-icons/fa6";
 import { RiReactjsLine } from "react-icons/ri";
 import { animate, motion } from "framer-motion";
+import { FaPhp } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+import { SiSqlalchemy } from "react-icons/si";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -73,6 +76,22 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaJsSquare className="text-7xl text-yellow-400" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaPhp className="text-7xl text-indigo-800" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <DiMongodb className="text-7xl text-green-800" />
         </motion.div>
       </motion.div>
     </div>
